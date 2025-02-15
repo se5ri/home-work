@@ -35,4 +35,4 @@
 
 다음주도 화이팅♥︎
 
-![image](/src/assets/images/jiwon.jpeg)
+![homework](/src/assets/images/homework1.png)
