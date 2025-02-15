@@ -34,4 +34,5 @@
 ---
 
 다음주도 화이팅♥︎
-![](https://velog.velcdn.com/images/se5ri/post/9cbb4210-ef00-4cd2-a9e0-dc01716fc65a/image.png)
+
+![image](/src/assets/images/jiwon.jpeg)
