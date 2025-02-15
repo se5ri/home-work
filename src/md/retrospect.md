@@ -34,5 +34,3 @@
 ---
 
 다음주도 화이팅♥︎
-
-![homework](./homework1.png)
