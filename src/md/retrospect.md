@@ -35,4 +35,4 @@
 
 다음주도 화이팅♥︎
 
-![homework](/src/assets/images/homework1.png)
+![homework](./homework1.png)
