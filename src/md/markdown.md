@@ -87,5 +87,4 @@
 [설명](이미지링크)
 11.1. ![example image](https://images.unsplash.com/photo-1659340298031-f3e6824f6679?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)
 
-11.2. [![설명](이미지링크)](https://예시.com "링크 설명")
-11.3. <img src="이미지 주소" width="450px" height="300px" title="px(픽셀) 고정크기 설정" alt="exampleImage"></img>
+
