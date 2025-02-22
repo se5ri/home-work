@@ -1,1 +1,67 @@
-/* 여기에 스타일을 구현해 주세요 */
+.body {
+  margin: 0px;
+  padding: 0px;
+}
+.total {
+  display: inline-block;
+  margin: 100px;
+  padding: 20px 40px 27px 40px;
+  font-size: 0;
+  width: 316px;
+}
+
+.set1 {
+  display: inline-block;
+  margin-bottom: 20px;
+  height: 64px;
+}
+.set2 {
+  display: inline-block;
+  height: 64px;
+}
+
+a {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  margin-right: 20px;
+}
+
+a:nth-child(4) {
+  margin-right: 0px;
+}
+
+a:nth-child(8) {
+  margin-right: 0px;
+}
+
+img {
+  display: inline-block;
+  /* 이미지 동그랗게 만들기 */
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  position: fixed;
+}
+
+/* 원 그리기 */
+.circle_total {
+  position: fixed;
+  display: inline-block;
+  margin: 46.22px 0px 0px 46.22px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  z-index: 1;
+}
+.circle {
+  background-color: #dbdbdb;
+  border-radius: 50%;
+  width: 15.78px;
+  height: 15.78px;
+}
+.circle-1 {
+  background-color: #4cfe88;
+  border-radius: 50%;
+  width: 15.78px;
+  height: 15.78px;
+}
