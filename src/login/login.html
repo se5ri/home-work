@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/src/assets/favicon/likelion.ico"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="/src/assets/favicon/likelion.svg" />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
+    />
+    <link rel="stylesheet" href="./styles/login.css" />
+    <title>login</title>
+  </head>
+  <body>
+    <!-- 기본 -->
+    <!-- 1원자: 네이버 로고부분 -->
+    <header>
+      <img src="./img/logo.svg" alt="네이버 이미지 로고" />
+    </header>
+    <!-- 2원자: 로그인 박스 -->
+    <div class="login-wrapper">
+      <form action="/" class="loginform">
+        <input required type="email" name="user-id" placeholder="아이디" />
+        <span>아이디는 이메일 형식으로 입력해주세요</span>
+        <input
+          required
+          type="password"
+          name="user-password"
+          placeholder="비밀번호"
+        />
+        <span>비밀번호는 10자리 이상 입력해주세요</span>
+        <button>로그인</button>
+        <div class="aside-wrapper">
+          <aside class="login-state">
+            <input
+              class="login-state-Img"
+              type="checkbox"
+              id="login-checkbox"
+            />
+            <label for="login-checkbox">로그인 상태 유지</label>
+          </aside>
+          <aside class="ip-safe">
+            <a href="./pages/ip_security.html">IP보안</a>
+            <input class="ip-safe-state" type="checkbox" id="ip-checkbox" />
+
+            <label for="ip-checkbox"></label>
+          </aside>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
