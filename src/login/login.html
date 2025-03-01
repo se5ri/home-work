@@ -27,9 +27,16 @@
     <!-- 2원자: 로그인 박스 -->
     <div class="login-wrapper">
       <form action="/" class="loginform">
-        <input required type="email" name="user-id" placeholder="아이디" />
+        <input
+          class="loginbox"
+          required
+          type="email"
+          name="user-id"
+          placeholder="아이디"
+        />
         <span>아이디는 이메일 형식으로 입력해주세요</span>
         <input
+          class="loginbox"
           required
           type="password"
           name="user-password"
@@ -44,13 +51,13 @@
               type="checkbox"
               id="login-checkbox"
             />
-            <label for="login-checkbox">로그인 상태 유지</label>
+            <label for="login-checkbox">로그인 상태 유지</label> 
           </aside>
           <aside class="ip-safe">
-            <a href="./pages/ip_security.html">IP보안</a>
+            <label for="ip-checkbox">
+              <a href="./pages/ip_security.html">IP보안</a></label
+            >
             <input class="ip-safe-state" type="checkbox" id="ip-checkbox" />
-
-            <label for="ip-checkbox"></label>
           </aside>
         </div>
       </form>
