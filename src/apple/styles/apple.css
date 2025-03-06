@@ -1,0 +1,50 @@
+@import "./card-component.css";
+@import "./theme.css";
+
+/* 카드 레이아웃 */
+
+.apple {
+  height: var(--size);
+}
+
+.ipad_air {
+  background: pink;
+}
+
+.ipad_pro {
+  background: orange;
+}
+
+.iphone_15_pro {
+  background: yellow;
+}
+
+.iphone_15 {
+  background: greenyellow;
+}
+
+.watch {
+  background: aqua;
+}
+
+.macbook_air {
+  background: skyblue;
+}
+
+.airpods_pro {
+  background: lightseagreen;
+}
+
+.container {
+  display: grid;
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(2, 1fr);
+
+    .ipad_pro,
+    .ipad_air,
+    .iphone_15_pro {
+      grid-column: 1/-1;
+    }
+  }
+}
