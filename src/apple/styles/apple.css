@@ -3,40 +3,52 @@
 
 /* 카드 레이아웃 */
 
-.apple {
-  height: var(--size);
-}
-
-.ipad_air {
-  background: pink;
-}
-
 .ipad_pro {
-  background: orange;
+  background: url(../products/ipad_pro.jpeg) center/cover no-repeat;
+
+  .text_container {
+    color: var(--white);
+  }
+}
+.ipad_air {
+  background: url(../products/ipad_air.jpeg) center/cover no-repeat;
 }
 
 .iphone_15_pro {
-  background: yellow;
+  background: url(../products/iphone15_pro.jpeg) center/cover no-repeat;
+
+  .text_container {
+    color: var(--white);
+  }
 }
 
 .iphone_15 {
-  background: greenyellow;
+  background: url(../products/iphone15.jpeg) center/cover no-repeat;
 }
 
 .watch {
-  background: aqua;
+  background: url(../products/apple_watch.jpeg) center/cover no-repeat;
+
+  .text_container {
+    color: var(--white);
+  }
 }
 
 .macbook_air {
-  background: skyblue;
+  background: url(../products/macbook_air.jpeg) center/cover no-repeat;
 }
 
 .airpods_pro {
-  background: lightseagreen;
+  background: url(../products/airpods_pro.jpeg) center/cover no-repeat;
+
+  .text_container {
+    color: var(--white);
+  }
 }
 
-.container {
+.apple_container {
   display: grid;
+  gap: var(--small-spacing);
 
   @media (min-width: 1024px) {
     grid-template-columns: repeat(2, 1fr);

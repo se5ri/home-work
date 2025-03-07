@@ -2,57 +2,111 @@
 @import "./theme.css";
 @import "./base.css";
 
-a {
-  display: inline-block;
-  font-size: var(--xx-small-text);
-  border-radius: 50px;
-  padding: var(--x-small-spacing) var(--small-spacing);
+.button_container {
+  .button {
+    display: inline-block;
+    font-size: var(--xx-small-text);
+    border-radius: 50px;
+    padding: var(--x-small-spacing) var(--small-spacing);
 
-  @media (min-width: 1024px) {
-    font-size: var(--x-small-text);
+    @media (min-width: 1024px) {
+      font-size: var(--x-small-text);
+    }
+  }
+  .blue_button_mode {
+    display: inline-flex;
+    column-gap: var(--base-spacing);
+
+    .blue_fill {
+      background: var(--blue-300);
+      color: var(--white);
+      border: 1px solid var(--blue-300);
+
+      &:hover {
+        background: var(--blue-200);
+        border: 1px solid var(--blue-200);
+      }
+    }
+    .blue_space {
+      background: transparent;
+      color: var(--blue-300);
+      border: 1px solid var(--blue-300);
+
+      &:hover {
+        color: var(--white);
+        background: var(--blue-300);
+      }
+    }
+  }
+  .black_button_mode {
+    display: inline-flex;
+    column-gap: var(--base-spacing);
+
+    .black_fill {
+      background: var(--black);
+      color: var(--white);
+      border: 1px solid var(--black);
+
+      &:hover {
+        background: var(--black-100);
+        border: 1px solid var(--black-100);
+      }
+    }
+
+    .black_space {
+      background: transparent;
+      color: var(--black);
+      border: 1px solid var(--black);
+
+      &:hover {
+        color: var(--white);
+        background: var(--black);
+      }
+    }
   }
 }
 
-.blue_fill {
-  background: var(--blue-300);
-  color: var(--white);
-  border: 1px solid var(--blue-300);
+.text_container {
+  font-family:
+    "SF Pro KR", "SF Pro Text", "SF Pro Icons", "Apple Gothic", "HY Gulim",
+    "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  text-align: center;
+  display: grid;
+  gap: var(--small-spacing);
 
-  &:hover {
-    background: var(--blue-200);
-    border: 1px solid var(--blue-200);
+  .main_text {
+    font-size: var(--large-text);
+
+    @media (min-width: 1024px) {
+      font-size: var(--extra-large-text);
+    }
+  }
+
+  .sub_text {
+    font-size: var(--base-text);
+
+    @media (min-width: 1024px) {
+      font-size: var(--medium-text);
+    }
+  }
+
+  .open_text {
+    font-size: var(--small-text);
+    color: var(--gray);
   }
 }
 
-.black_fill {
-  background: var(--black);
-  color: var(--white);
-  border: 1px solid var(--black);
+/* 카드 컴포넌트  */
+.card_container {
+  height: var(--size);
 
-  &:hover {
-    background: var(--black-100);
-    border: 1px solid var(--black-100);
+  .text_container {
+    margin-top: var(--large-spacing);
+    margin-bottom: var(--small-spacing);
   }
-}
-
-.blue_space {
-  background: transparent;
-  color: var(--blue-300);
-  border: 1px solid var(--blue-300);
-
-  &:hover {
-    color: var(--white);
-    background: var(--blue-300);
-  }
-}
-
-.black_space {
-  background: transparent;
-  color: var(--black);
-  border: 1px solid var(--black);
-
-  &:hover {
-    color: var(--white);
-    background: var(--black);
+  .button_container {
+    display: grid;
+    justify-content: center;
   }
 }
