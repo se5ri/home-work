@@ -73,11 +73,11 @@
   text-align: center;
   display: grid;
   gap: var(--small-spacing);
-  margin-top: var(--large-spacing);
   margin-bottom: var(--small-spacing);
 
   .main_text {
     font-size: var(--large-text);
+    margin-top: var(--large-spacing);
 
     @media (min-width: 1024px) {
       font-size: var(--extra-large-text);
