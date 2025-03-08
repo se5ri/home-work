@@ -11,8 +11,4 @@
 과제할 때, 버튼을 a태그로 만들었는데 이미지도 a태그로 만들다 보니 a태그가 중첩이 되지 않는다는 걸 알았다 ㅠㅠ
 그래서 이미지 창(1개) 전체창 (1개)해서 z-index로 하는 방법을 써보았다
 
-## 과제 동영상 삽입
 
-<video controls>
-  <source src="./products/apple과제동영상.mov" type="video/mp4">
-</video>
