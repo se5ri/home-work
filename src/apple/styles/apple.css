@@ -4,11 +4,7 @@
 /* 카드 레이아웃 */
 
 .ipad_pro {
-  background: url(../products/ipad_pro.jpeg) center/cover no-repeat;
-
-  .text_container {
-    color: var(--white);
-  }
+  background: pink
 }
 .ipad_air {
   background: url(../products/ipad_air.jpeg) center/cover no-repeat;
